@@ -1,8 +1,8 @@
 import React from 'react';
 import Profile from '../Assets/profile-image.png';
 
-
 const Home = () => {
+
 
     return (
         // Div container for the Home section with gradient background
@@ -18,7 +18,7 @@ const Home = () => {
                     <div className='text-white text-lg md:text-4xl sm:7xl font-bold'>
                         <p className='mb-2'>Hi,</p>
                         <p className='mb-2'>I'm <span className='italic underline underline-offset-4 whitespace-nowrap'>Gulam Mohiuddin Ansari</span>,</p>
-                       
+                      
                     </div>
 
                     {/* Brief description about myself */}

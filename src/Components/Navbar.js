@@ -16,7 +16,7 @@ const links = [
   {
     id: 3,
     link: "Experience",
-  },
+  },  
   {
     id: 4,
     link: "Skills",
@@ -50,7 +50,7 @@ const Navbar = () => {
  ######################################################################################## */
 
     // Navigation bar container
-    <div className="flex justify-between items-center w-full h-auto bg-gradient-to-b from-black to-gray-800 text-white p-4 fixed z-10">
+    <div className="flex font-bold justify-between items-center w-full h-auto bg-gradient-to-b from-black to-gray-800 text-white p-4 fixed z-10">
       {/* Brand/Logo */}
       <div>
         <img src={logo} alt=""  className="mx-auto max-w-[100px] max-h-[120px] md:h-auto md:w-[900px] rounded-[100%]"/>
@@ -64,7 +64,7 @@ const Navbar = () => {
             key={id}
             className="flex capitalize px-5  
                             cursor-pointer
-                            hover:scale-105 duration-150 hover:underline underline-offset-8 decoration-gray-400"
+                            hover:scale-105 font-bold hover:text-green-400 duration-150 hover:underline underline-offset-8 decoration-gray-400"
           >
             {/* Smooth scroll link to each section */}
             <Link to={link} smooth duration={500}>
