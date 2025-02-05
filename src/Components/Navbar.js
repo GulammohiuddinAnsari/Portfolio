@@ -53,7 +53,7 @@ const Navbar = () => {
     <div className="flex font-bold justify-between items-center w-full h-auto bg-gradient-to-b from-black to-gray-800 text-white p-4 fixed z-10">
       {/* Brand/Logo */}
       <div>
-        <img src={logo} alt=""  className="mx-auto max-w-[100px] max-h-[120px] md:h-auto md:w-[900px] rounded-[100%]"/>
+        <img src={logo} alt=""  className="mx-auto max-w-[100px] max-h-[70px] md:h-auto md:w-[900px] rounded-[100%]"/>
        
       </div>
 
