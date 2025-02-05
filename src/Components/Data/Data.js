@@ -36,3 +36,11 @@ export const EducationData = [
         "I successfully completed my Secondary School Certificate (SSC) from the Gujarat State Board, achieving an impressive overall percentage of 58.67%. This period of my education laid a strong foundation for my academic journey.",
     },
   ];
+
+  export const Experience = [
+    {
+      id:1,
+      designation:"Fresher",
+    }
+  
+  ];
