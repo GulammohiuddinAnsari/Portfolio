@@ -1,13 +1,15 @@
+// Importing the Education component from the "./Education" file
 import { Personal_Description } from "../Components/Data/Data";
+import Education from "./Education";
 
 // Functional component for the About section
 const About = () => {
     return (
         <div
             name="About"
-            className=" w-full min-h-screen bg-gradient-to-b from-black to-gray-800 text-white flex flex-col justify-center items-center"
+            className="pt-36 w-full min-h-screen bg-gradient-to-b from-black to-gray-800 text-white flex flex-col justify-center items-center"
         >
-            <div className="max-w-screen-lg px-14 pb-24 mx-auto flex flex-col justify-center items-center w-full h-full">
+            <div className="max-w-screen-lg px-14 pb-10 mx-auto flex flex-col justify-center items-center w-full h-full">
                 {/* Header for the About section */}
                 <div className="pb-8 flex flex-row justify-center items-center">
                     <p className="font-bold text-4xl border-b-4 inline border-gray-500">
@@ -19,6 +21,17 @@ const About = () => {
                 <p className="text-xl mt-3 text-justify">
                     {Personal_Description}
                 </p>
+
+                {/* Background container with gradient and shadow */}
+                <div className="bg-gradient-to-b from-black to-gray-900 shadow-md shadow-gray-500 rounded-md w-full h-full p-4 mt-10">
+
+                    {/* Section for displaying Education details */}
+                    <p className="text-2xl font-bold hover:text-yellow-400 hover:underline width-[30%]">Education :</p>
+                    <div className="py-8 px-4">
+                        {/* Rendering the Education component */}
+                        <Education/>
+                    </div>
+                </div>
             </div>
         </div>
     );
