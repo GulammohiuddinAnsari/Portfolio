@@ -98,6 +98,6 @@ export const projects = [
     title: "Portfolio Website",
     src: portfolio,
     git: "https://github.com/GulammohiuddinAnsari/Portfolio",
-    demo: null
+    demo: "https://gulammohiuddinportfolio0712.netlify.app/"
   },
 ];

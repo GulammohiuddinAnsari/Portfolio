@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar';
 import Project from './Components/Projects';
 import Skills from './Components/Skills';
 import Footer from './Footer';
+import SocialLinks from './SocialLinks';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Project/>
       <Contact/>
       <Footer/>
+      <SocialLinks/>
     </div>
   );
 }
