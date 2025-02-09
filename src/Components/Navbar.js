@@ -34,7 +34,7 @@ const links = [
 // Function to handle CV download
 const downloadCv = () => {
   const link =
-     "https://drive.google.com/file/d/1CFmav5HvWaaCh04VwACUgFkxwcKBJ8ia/view?usp=drivesdk";
+     "https://drive.google.com/file/d/1EyyNHbx3l9q7D4AICoTEGFYN6iiKn5XT/view?usp=drivesdk";
   window.open(link, "_blank");
 };
 
