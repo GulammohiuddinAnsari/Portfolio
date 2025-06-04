@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
-import logo from "../Assets/logo.JPG"
+import logo from "../Assets/logo3.JPG"
 import { FaBars, FaTimes } from "react-icons/fa";
 
 // Navigation links data

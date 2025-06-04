@@ -5,6 +5,12 @@ import e_commerce from "../../Assets/Project/eshopping.JPG";
 import shopsy_clone from "../../Assets/Project/shopsy.JPG";
 import portfolio from "../../Assets/Project/portfolio.JPG";
 
+export const domainList = [
+     "Frontend Developer",
+     " Learning MERN Stack ",
+     
+]
+
 export const Personal_Description = `
 Hello! I'm Gulam Mohiuddin Ansari, an enthusiastic and skilled recent graduate
           with a BCA in Web Development, equipped with a diverse range
@@ -49,10 +55,10 @@ export const EducationData = [
 
 //experience data
 export const Experience = [
-  {
-    id: 1,
-    designation: "Fresher",
-  }
+  // {
+  //   id: 1,
+  //   // designation: "Fresher",
+  // }
 ];
 
 

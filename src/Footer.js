@@ -15,7 +15,7 @@ const Footer = () => {
         {/* Flex container for centered and styled text */}
         <div className="flex flex-col justify-center items-center text-[14px]">
           {/* Author information with underline on hover */}
-          <p>Made by <span className="underline underline-offset-4 font-bold">Gulam Mohiuddin Ansari</span></p>
+          <p> <span className="underline underline-offset-4 font-extralight">Gulam Mohiuddin Ansari</span></p>
           {/* Copyright information with the current year */}
           <p>&copy; Copyright {date}</p>
         </div>
