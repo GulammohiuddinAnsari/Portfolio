@@ -1,7 +1,17 @@
 import React from 'react';
 import Profile from '../Assets/profile-image.png';
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import { domainList } from './Data/Data';
 
 const Home = () => {
+
+    const [text] = useTypewriter({
+        words: domainList,
+        loop: {},
+        typeSpeed: 100,
+        deleteSpeed: 80
+    })
+
 
 
     return (
@@ -18,7 +28,11 @@ const Home = () => {
                     <div className='text-white text-lg md:text-4xl sm:7xl font-bold'>
                         <p className='mb-2'>Hi,</p>
                         <p className='mb-2'>I'm <span className='italic hover:underline underline-offset-4 whitespace-nowrap'>Gulam Mohiuddin Ansari</span>,</p>
-                      
+                        <p className='text-yellow-400 '>
+                            {text}
+                            <Cursor />
+                        </p>
+
                     </div>
 
                     {/* Brief description about myself */}
@@ -26,7 +40,7 @@ const Home = () => {
                         A recent graduate with a B.C.A from Veer Narmad South Gujarat University. My journey in the world of technology has equipped me with a diverse set of skills that I'm excited to leverage in the software development realm.
                     </p>
 
-                    
+
 
                 </div>
 
