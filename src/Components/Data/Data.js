@@ -12,12 +12,11 @@ export const domainList = [
 ]
 
 export const Personal_Description = `
-Hello! I'm Gulam Mohiuddin Ansari, an enthusiastic and skilled recent graduate
-          with a BCA in Web Development, equipped with a diverse range
-          of technical skills including PHP, JavaScript, And Learning MERN stack
-          to Becoming full-stack web development. Eager to contribute
-          to a dynamic team and database technologies (SQL, MongoDB)
-          in a challenging software development role.
+Hello! I'm Gulam Mohiuddin Ansari, I am currently pursuing a Master of Computer Application (MCA) degree from Gujarat Technological University. In addition to my academic studies, I have completed a comprehensive Full Stack Web Development course, where I gained both theoretical knowledge and practical skills in web development. My education and training have equipped me with a solid foundation in computer science and programming, allowing me to work confidently in various development environments. I am equipped with a diverse range
+of technical skills including PHP, JavaScript, And Learning MERN stack
+to Becoming full-stack web development. Eager to contribute
+to a dynamic team and database technologies (SQL, MongoDB)
+in a challenging software development role.
 `
 
 
